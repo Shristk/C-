@@ -1,3 +1,5 @@
+//WRITE A PROGRAM TO CHECK WHETHER A NUMBER IS A PERFECT OR NOT
+
 #include <iostream>
 using namespace std;
 
