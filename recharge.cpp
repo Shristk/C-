@@ -54,6 +54,7 @@ int main()
 {
     int n,m,c;
     float d;
+    cout<<"enter ur plan validity days left:";
     cin>>n;
     // cin>>m;
     // cin>>d;
@@ -65,8 +66,11 @@ int main()
     }
     if(n<84)
     {
+    cout<<"\nenter the number of messages u sent today : ";
     cin>>m;
+        cout<<"\nenter the amount of data u used today : ";
     cin>>d;
+        cout<<"\nenter the amount of calls u dialed today : ";
     cin>>c;
     obj.days(n);
     obj.messages(m);
