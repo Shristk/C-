@@ -1,3 +1,4 @@
+//TO CREATE AND PRINT AN ORIGIGNAL LINKED LIST AND ITS REVERSE
 #include<iostream>
 using namespace std;
 class Node{
