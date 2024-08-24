@@ -1,3 +1,5 @@
+//A PROGRAM IN C+ TO PROVE THE WORKING OF A DOUBLY LINKED LIST BY MAINTAINING THE PREV AND NEXT POINTER OF A NODE
+
 #include<iostream>
 using namespace std;
 class Node{
