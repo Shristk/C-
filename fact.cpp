@@ -1,3 +1,4 @@
+//PROGRAM IN C++ TO PRINT THE FACTORIAL OF ALL THE ELEMENTS IN A GIVEN ARRAY
 #include<iostream>
 using namespace std;
 int factorial(int n)
