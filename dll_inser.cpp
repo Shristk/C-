@@ -1,4 +1,4 @@
-
+//create a doubly linked list in c++ and perform various kinds of insertion in the linked list
 #include<iostream>
 using namespace std;
 class Node{
