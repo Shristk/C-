@@ -1,3 +1,4 @@
+//Implementation of hash map using the multiplication method to find out hash function
 #include <iostream>
 #include <vector>
 #include <cmath>
