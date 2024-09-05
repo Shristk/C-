@@ -41,3 +41,48 @@ int main() {
 
     return 0;
 }
+
+
+//==============================================================================================================================================================
+//Implementation of hash map using the division method to find out the hash function
+
+#include <iostream>
+#include <vector>
+using namespace std;
+//Division method
+int hashFunction(int key, int tableSize) {
+    return key % tableSize;
+}
+
+void insert(vector<int>& hashTable, int key) {
+    int index = hashFunction(key, hashTable.size());
+    // Linear probing
+    /*while (hashTable[index] != -1) {
+        index = (index + 1) % hashTable.size();
+    }*/
+    hashTable[index] = key;
+}
+
+void displayHashTable(const vector<int>& hashTable) {
+    for (int i = 0; i < hashTable.size(); ++i) {
+        if (hashTable[i] != -1) {
+            cout << i << " --> " << hashTable[i] << endl;
+        } else {
+            cout << i << " --> " << "Empty" << endl;
+        }
+    }
+}
+
+int main() {
+    int tableSize = 10;
+    vector<int> hashTable(tableSize, -1); // Initialize hash table with -1 (empty slots)
+    //int keys[] = {23, 43, 13, 27};
+    int keys[] = {10,11,12,13,14,20,21};
+    for (int key : keys) {
+        insert(hashTable, key);
+    }
+
+    displayHashTable(hashTable);
+
+    return 0;
+}
