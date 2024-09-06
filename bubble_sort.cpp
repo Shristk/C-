@@ -1,4 +1,4 @@
-//BUBBLE SORT
+//Program in C++ ot implement the logic of bubble sort
 #include<iostream>
 using namespace std;
 void bubblesort(int arr[],int n)
